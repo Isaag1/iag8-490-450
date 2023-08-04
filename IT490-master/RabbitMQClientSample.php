@@ -5,7 +5,7 @@ require_once('rabbitMQLib.inc');
 
 $client = new RabbitMQClient('testRabbitMQ.ini', 'testServer');
 if(isset($argv[1])){
-	$msg = $argv[1];
+	$msg = array("message"=> $argv[1], "type" => "echo");
 }
 else{
 	$msg = array("message"=>"test message", "type"=>"echo");
