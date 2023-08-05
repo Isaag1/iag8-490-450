@@ -1,180 +1,90 @@
 [
   {
+    "id": 4704,
     "name": "Low-Carb Avocado Chicken Salad",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/45b4efeb5d2c4d29970344ae165615ab/FixedFBFinal.jpg",
-    "ingredientList": [],
-    "steps": [],
+    "ingredients": [
+      "plain greek yogurt",
+      "lime juice",
+      "pepper",
+      "chili powder",
+      "avocado",
+      "chicken breast",
+      "celery",
+      "diced red onion",
+      "kosher salt",
+      "low-carb bread",
+      "fresh cilantro leaves"
+    ],
+    "steps": [
+      "In a blender or food processor, combine the yogurt, lime juice, pepper, and chili powder and pulse to combine. Add ½ of the avocado and blend until creamy.",
+      "In a medium bowl, combine the chicken, yogurt sauce, celery, the remaining ½ avocado, onion, and salt. Mix until well combined.",
+      "Serve on low-carb bread and garnish with cilantro, or as desired.",
+      "Enjoy!"
+    ],
     "nutrition": {
-      "fiber": 3,
-      "updated_at": "2021-05-03T13:23:58+02:00",
-      "protein": 29,
       "fat": 8,
       "calories": 250,
       "sugar": 8,
-      "carbohydrates": 13
+      "carbohydrates": 13,
+      "fiber": 3,
+      "updated_at": "2021-05-03T13:23:58+02:00",
+      "protein": 29
     },
     "tags": [
-      {
-        "type": "cuisine",
-        "root_tag_type": "cuisine",
-        "name": "north_american",
-        "id": 64444,
-        "display_name": "North American"
-      },
-      {
-        "root_tag_type": "healthy",
-        "name": "healthy",
-        "id": 64466,
-        "display_name": "Healthy",
-        "type": "healthy"
-      },
-      {
-        "root_tag_type": "healthy",
-        "name": "low_carb",
-        "id": 64467,
-        "display_name": "Low-Carb",
-        "type": "healthy"
-      },
-      {
-        "display_name": "Easy",
-        "type": "difficulty",
-        "root_tag_type": "difficulty",
-        "name": "easy",
-        "id": 64471
-      },
-      {
-        "type": "meal",
-        "root_tag_type": "meal",
-        "name": "brunch",
-        "id": 64484,
-        "display_name": "Brunch"
-      },
-      {
-        "display_name": "Snacks",
-        "type": "meal",
-        "root_tag_type": "meal",
-        "name": "snacks",
-        "id": 64491
-      },
-      {
-        "display_name": "Food Processor",
-        "type": "appliance",
-        "root_tag_type": "appliance",
-        "name": "food_processor",
-        "id": 65842
-      },
-      {
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "spatula",
-        "id": 1247788,
-        "display_name": "Spatula"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "chefs_knife",
-        "id": 1280501,
-        "display_name": "Chef's Knife",
-        "type": "equipment"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "cutting_board",
-        "id": 1280503,
-        "display_name": "Cutting Board",
-        "type": "equipment"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "dry_measuring_cups",
-        "id": 1280507,
-        "display_name": "Dry Measuring Cups",
-        "type": "equipment"
-      },
-      {
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "measuring_spoons",
-        "id": 1280508,
-        "display_name": "Measuring Spoons"
-      },
-      {
-        "display_name": "Mixing Bowl",
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "mixing_bowl",
-        "id": 1280510
-      },
-      {
-        "type": "healthy",
-        "root_tag_type": "healthy",
-        "name": "high_protein",
-        "id": 8091917,
-        "display_name": "High-Protein"
-      },
-      {
-        "name": "cuisine",
-        "id": 8757513,
-        "display_name": "Cuisine",
-        "type": "cuisine",
-        "root_tag_type": "cuisine"
-      },
-      {
-        "root_tag_type": "appliance",
-        "name": "appliance",
-        "id": 9295811,
-        "display_name": "Appliance",
-        "type": "appliance"
-      },
-      {
-        "root_tag_type": "difficulty",
-        "name": "difficulty",
-        "id": 9295816,
-        "display_name": "Difficulty",
-        "type": "difficulty"
-      },
-      {
-        "type": "dietary",
-        "root_tag_type": "dietary",
-        "name": "gluten_free",
-        "id": 64465,
-        "display_name": "Gluten-Free"
-      },
-      {
-        "root_tag_type": "difficulty",
-        "name": "under_30_minutes",
-        "id": 64472,
-        "display_name": "Under 30 Minutes",
-        "type": "difficulty"
-      },
-      {
-        "root_tag_type": "cooking_style",
-        "name": "meal_prep",
-        "id": 65853,
-        "display_name": "Meal Prep",
-        "type": "cooking_style"
-      },
-      {
-        "type": "lunch",
-        "root_tag_type": "meal",
-        "name": "sandwiches",
-        "id": 9299494,
-        "display_name": "Sandwiches"
-      },
-      {
-        "id": 9299514,
-        "display_name": "Chicken",
-        "type": "dinner",
-        "root_tag_type": "meal",
-        "name": "chicken"
-      }
+      "north_american",
+      "healthy",
+      "low_carb",
+      "easy",
+      "brunch",
+      "snacks",
+      "food_processor",
+      "spatula",
+      "chefs_knife",
+      "cutting_board",
+      "dry_measuring_cups",
+      "measuring_spoons",
+      "mixing_bowl",
+      "high_protein",
+      "cuisine",
+      "appliance",
+      "difficulty",
+      "gluten_free",
+      "under_30_minutes",
+      "meal_prep",
+      "sandwiches",
+      "chicken"
     ]
   },
   {
+    "id": 5466,
     "name": "Tomato And Anchovy Pasta",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216182.jpg",
-    "ingredientList": [],
-    "steps": [],
+    "ingredients": [
+      "unsalted butter",
+      "anchovies",
+      "panko breadcrumbs",
+      "freshly grated parmigiano-reggiano cheese",
+      "extra virgin olive oil",
+      "garlic",
+      "red pepper flakes",
+      "cherry tomato",
+      "kosher salt",
+      "white wine",
+      "spaghetti",
+      "lemon  zest"
+    ],
+    "steps": [
+      "Melt the butter in a large skillet over medium heat. Add 4 of the chopped anchovy filets and cook for 1 minute, until they begin to melt.",
+      "Add the panko bread crumbs and cook for 3 minutes, stirring frequently, until golden brown. Transfer the bread crumbs to a medium bowl and let cool to room temperature. Once cooled, toss with the Parmigiano-Reggiano cheese.",
+      "Heat ¼ cup (60 ml) of olive oil in a medium saucepan over medium-high heat. Once the oil begins to shimmer, add the remaining 6 anchovies and cook for 2 minutes, stirring frequently, until the anchovies begin to melt into the oil.",
+      "Add the garlic and red pepper flakes and cook for 30 seconds, until fragrant.",
+      "Add the tomatoes and stir to coat in the oil. Season with 1 teaspoon of salt and cook for 5 minutes, or until the tomatoes just begin to soften.",
+      "Add the white wine and reduce the heat to low. Cook for 5 minutes, or until the sauce is reduced by half.",
+      "Add cooked pasta and reserved cooking water to the pot with the tomatoes and stir to combine. Cook for 1 minute, until the pasta is well coated and saucy. Drizzle with the remaining tablespoon of olive oil and season with salt. Toss to coat.",
+      "Serve the pasta topped with the anchovy bread crumbs and lemon zest",
+      "Enjoy!"
+    ],
     "nutrition": {
       "carbohydrates": 109,
       "fiber": 19,
@@ -185,167 +95,29 @@
       "sugar": 9
     },
     "tags": [
-      {
-        "root_tag_type": "cuisine",
-        "name": "north_american",
-        "id": 64444,
-        "display_name": "North American",
-        "type": "cuisine"
-      },
-      {
-        "root_tag_type": "meal",
-        "name": "dinner",
-        "id": 64486,
-        "display_name": "Dinner",
-        "type": "meal"
-      },
-      {
-        "name": "stove_top",
-        "id": 65848,
-        "display_name": "Stove Top",
-        "type": "appliance",
-        "root_tag_type": "appliance"
-      },
-      {
-        "root_tag_type": "cooking_style",
-        "name": "big_batch",
-        "id": 65851,
-        "display_name": "Big Batch",
-        "type": "cooking_style"
-      },
-      {
-        "root_tag_type": "cooking_style",
-        "name": "pan_fry",
-        "id": 65859,
-        "display_name": "Pan Fry",
-        "type": "cooking_style"
-      },
-      {
-        "root_tag_type": "seasonal",
-        "name": "special_occasion",
-        "id": 188967,
-        "display_name": "Special Occasion",
-        "type": "occasion"
-      },
-      {
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "cheese_grater",
-        "id": 1247769,
-        "display_name": "Cheese Grater"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "pyrex",
-        "id": 1247785,
-        "display_name": "Pyrex",
-        "type": "equipment"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "saute_pan",
-        "id": 1247787,
-        "display_name": "Saute Pan",
-        "type": "equipment"
-      },
-      {
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "tongs",
-        "id": 1247790,
-        "display_name": "Tongs"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "liquid_measuring_cup",
-        "id": 1280506,
-        "display_name": "Liquid Measuring Cup",
-        "type": "equipment"
-      },
-      {
-        "root_tag_type": "equipment",
-        "name": "dry_measuring_cups",
-        "id": 1280507,
-        "display_name": "Dry Measuring Cups",
-        "type": "equipment"
-      },
-      {
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "measuring_spoons",
-        "id": 1280508,
-        "display_name": "Measuring Spoons"
-      },
-      {
-        "id": 1280510,
-        "display_name": "Mixing Bowl",
-        "type": "equipment",
-        "root_tag_type": "equipment",
-        "name": "mixing_bowl"
-      },
-      {
-        "type": "dietary",
-        "root_tag_type": "dietary",
-        "name": "contains_alcohol",
-        "id": 5285641,
-        "display_name": "Contains Alcohol"
-      },
-      {
-        "root_tag_type": "healthy",
-        "name": "high_protein",
-        "id": 8091917,
-        "display_name": "High-Protein",
-        "type": "healthy"
-      },
-      {
-        "name": "high_fiber",
-        "id": 8091920,
-        "display_name": "High-Fiber",
-        "type": "healthy",
-        "root_tag_type": "healthy"
-      },
-      {
-        "id": 64453,
-        "display_name": "Italian",
-        "type": "european",
-        "root_tag_type": "cuisine",
-        "name": "italian"
-      },
-      {
-        "root_tag_type": "meal",
-        "name": "seafood",
-        "id": 64459,
-        "display_name": "Seafood",
-        "type": "dinner"
-      },
-      {
-        "root_tag_type": "difficulty",
-        "name": "easy",
-        "id": 64471,
-        "display_name": "Easy",
-        "type": "difficulty"
-      },
-      {
-        "root_tag_type": "difficulty",
-        "name": "under_30_minutes",
-        "id": 64472,
-        "display_name": "Under 30 Minutes",
-        "type": "difficulty"
-      },
-      {
-        "root_tag_type": "dietary",
-        "name": "pescatarian",
-        "id": 3801552,
-        "display_name": "Pescatarian",
-        "type": "dietary"
-      },
-      {
-        "id": 9299522,
-        "display_name": "Pasta",
-        "type": "dinner",
-        "root_tag_type": "meal",
-        "name": "pasta"
-      }
+      "north_american",
+      "dinner",
+      "stove_top",
+      "big_batch",
+      "pan_fry",
+      "special_occasion",
+      "cheese_grater",
+      "pyrex",
+      "saute_pan",
+      "tongs",
+      "liquid_measuring_cup",
+      "dry_measuring_cups",
+      "measuring_spoons",
+      "mixing_bowl",
+      "contains_alcohol",
+      "high_protein",
+      "high_fiber",
+      "italian",
+      "seafood",
+      "easy",
+      "under_30_minutes",
+      "pescatarian",
+      "pasta"
     ]
   }
 ]

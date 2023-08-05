@@ -1,5 +1,16 @@
-const fs = require('fs');
 const axios = require('axios');
+const fs = require('fs');
+const mysql = require('mysql2');
+
+const pool = mysql.createPool({
+  host: '35.219.141.161',
+  user: 'nv288',
+  password: 'titans',
+  database: 'titans',
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
+});
 
 const options = {
   method: 'GET',
@@ -15,35 +26,88 @@ const options = {
   }
 };
 
-async function fetchData() {
+async function fetchRecipesAndSaveToDatabase() {
   try {
     const response = await axios.request(options);
-    const recipes = response.data.results; // Extract the "results" array from the response
+    const results = response.data.results;
 
-    // Choose specific data from each recipe in the "results" array
-    const selectedRecipes = recipes.map((recipe) => ({
-      name: recipe.name,
-      photo: recipe.thumbnail_url,
-      ingredientList: recipe.sections
-        .filter((section) => section.section_type === 'ingredients')
-        .flatMap((section) => section.components.map((component) => component.raw_text)),
-      steps: recipe.instructions
-        .filter((instruction) => instruction.language === 'eng')
-        .map((instruction) => instruction.display_text),
-      nutrition: recipe.nutrition,
-      tags: recipe.tags,
-    }));
+    const simplifiedResults = results.map((recipe) => {
+      const {
+        id,
+        name,
+        thumbnail_url,
+        instructions,
+        nutrition,
+        tags
+      } = recipe;
 
-    // Convert the selected data to JSON
-    const jsonData = JSON.stringify(selectedRecipes, null, 2);
+      // Extract ingredients
+      let ingredients = [];
+      if (recipe.sections && recipe.sections.length > 0 && recipe.sections[0].components) {
+        ingredients = recipe.sections[0].components.map((component) => {
+          if (component.ingredient && component.ingredient.name) {
+            return component.ingredient.name;
+          }
+          return '';
+        });
+      }
 
-    // Save the JSON data to a file
-    fs.writeFileSync('selected_recipes.json', jsonData, 'utf8');
-    console.log('Selected data has been saved to selected_recipes.json file.');
+      return {
+        id,
+        name,
+        photo: thumbnail_url,
+        ingredients,
+        steps: instructions.map((step) => step.display_text),
+        nutrition,
+        tags: tags.map((tag) => tag.name)
+      };
+    });
+
+    simplifiedResults.forEach((recipe) => {
+      const recipeQuery = `
+        INSERT INTO Recipes (api_id, name, photo, ingredientList, steps, TAGS, created, modified)
+        VALUES (?, ?, ?, ?, ?, ?, NOW(), NOW())
+      `;
+      const recipeValues = [
+        recipe.id,
+        recipe.name,
+        recipe.photo,
+        JSON.stringify(recipe.ingredients),
+        JSON.stringify(recipe.steps),
+        JSON.stringify(recipe.tags)
+      ];
+
+      pool.query(recipeQuery, recipeValues, (error, results, fields) => {
+        if (error) {
+          console.error('Error inserting recipe:', error);
+        } else {
+          console.log('Recipe inserted successfully.');
+        }
+      });
+    });
+
+    const ingredientsData = fs.readFileSync('ingredients.json', 'utf8');
+    const ingredientList = JSON.parse(ingredientsData);
+
+    ingredientList.forEach((ingredients, index) => {
+      const ingredientQuery = `
+        INSERT INTO Ingredients (id, name, created, modified)
+        VALUES (?, ?, NOW(), NOW())
+      `;
+      const ingredientValues = [index + 1, JSON.stringify(ingredients)];
+
+      pool.query(ingredientQuery, ingredientValues, (error, results, fields) => {
+        if (error) {
+          console.error('Error inserting ingredient:', error);
+        } else {
+          console.log('Ingredient inserted successfully.');
+        }
+      });
+    });
+
   } catch (error) {
     console.error(error);
   }
 }
 
-// Call the async function to fetch data and save it to a file
-fetchData();
+fetchRecipesAndSaveToDatabase();
