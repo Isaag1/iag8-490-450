@@ -1,23 +1,12 @@
 const axios = require('axios');
 const fs = require('fs');
-const mysql = require('mysql2');
-
-const pool = mysql.createPool({
-  host: '35.219.141.161',
-  user: 'nv288',
-  password: 'titans',
-  database: 'titans',
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
-});
 
 const options = {
   method: 'GET',
   url: 'https://tasty.p.rapidapi.com/recipes/list',
   params: {
     from: '0',
-    size: '2',
+    size: '15',
     tags: 'under_30_minutes'
   },
   headers: {
@@ -26,7 +15,7 @@ const options = {
   }
 };
 
-async function fetchRecipesAndSaveToDatabase() {
+async function fetchRecipesAndSaveToFile() {
   try {
     const response = await axios.request(options);
     const results = response.data.results;
@@ -46,7 +35,9 @@ async function fetchRecipesAndSaveToDatabase() {
       if (recipe.sections && recipe.sections.length > 0 && recipe.sections[0].components) {
         ingredients = recipe.sections[0].components.map((component) => {
           if (component.ingredient && component.ingredient.name) {
-            return component.ingredient.name;
+            // Exclude "updated_at" from ingredient properties
+            const { updated_at, ...ingredient } = component.ingredient;
+            return ingredient;
           }
           return '';
         });
@@ -63,51 +54,19 @@ async function fetchRecipesAndSaveToDatabase() {
       };
     });
 
-    simplifiedResults.forEach((recipe) => {
-      const recipeQuery = `
-        INSERT INTO Recipes (api_id, name, photo, ingredientList, steps, TAGS, created, modified)
-        VALUES (?, ?, ?, ?, ?, ?, NOW(), NOW())
-      `;
-      const recipeValues = [
-        recipe.id,
-        recipe.name,
-        recipe.photo,
-        JSON.stringify(recipe.ingredients),
-        JSON.stringify(recipe.steps),
-        JSON.stringify(recipe.tags)
-      ];
-
-      pool.query(recipeQuery, recipeValues, (error, results, fields) => {
-        if (error) {
-          console.error('Error inserting recipe:', error);
-        } else {
-          console.log('Recipe inserted successfully.');
-        }
-      });
+    const jsonData = JSON.stringify(simplifiedResults, null, 2);
+    fs.writeFile('selected_recipes.json', jsonData, 'utf8', (err) => {
+      if (err) {
+        console.error('Error writing to file:', err);
+      } else {
+        console.log('Data written to selected_recipes.json');
+      }
     });
-
-    const ingredientsData = fs.readFileSync('ingredients.json', 'utf8');
-    const ingredientList = JSON.parse(ingredientsData);
-
-    ingredientList.forEach((ingredients, index) => {
-      const ingredientQuery = `
-        INSERT INTO Ingredients (id, name, created, modified)
-        VALUES (?, ?, NOW(), NOW())
-      `;
-      const ingredientValues = [index + 1, JSON.stringify(ingredients)];
-
-      pool.query(ingredientQuery, ingredientValues, (error, results, fields) => {
-        if (error) {
-          console.error('Error inserting ingredient:', error);
-        } else {
-          console.log('Ingredient inserted successfully.');
-        }
-      });
-    });
-
   } catch (error) {
-    console.error(error);
+    console.error('Error fetching data:', error);
   }
 }
 
-fetchRecipesAndSaveToDatabase();
+fetchRecipesAndSaveToFile();
+
+
