@@ -4,17 +4,17 @@
     "name": "Low-Carb Avocado Chicken Salad",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/45b4efeb5d2c4d29970344ae165615ab/FixedFBFinal.jpg",
     "ingredients": [
-      "⅔ cup plain Greek yogurt",
-      "1 tablespoon lime juice",
-      "Pepper, to taste",
-      "⅛ teaspoon chili powder",
-      "1 avocado, cubed, divided",
-      "2 chicken breasts, cooked and shredded",
-      "1 celery stalk, diced",
-      "2 tablespoons diced red onion",
-      "Kosher salt, to taste",
-      "Low-carb bread, for serving, optional",
-      "Fresh cilantro leaves, for garnish"
+      "plain greek yogurt",
+      "lime juice",
+      "pepper",
+      "chili powder",
+      "avocado",
+      "chicken breast",
+      "celery",
+      "diced red onion",
+      "kosher salt",
+      "low-carb bread",
+      "fresh cilantro leaves"
     ],
     "steps": [
       "In a blender or food processor, combine the yogurt, lime juice, pepper, and chili powder and pulse to combine. Add ½ of the avocado and blend until creamy.",
@@ -23,13 +23,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "sugar": 8,
       "carbohydrates": 13,
       "fiber": 3,
       "updated_at": "2021-05-03T13:23:58+02:00",
       "protein": 29,
       "fat": 8,
-      "calories": 250,
-      "sugar": 8
+      "calories": 250
     },
     "tags": [
       "north_american",
@@ -54,6 +54,19 @@
       "meal_prep",
       "sandwiches",
       "chicken"
+    ],
+    "ingredientList": [
+      "⅔ cup plain Greek yogurt",
+      "1 tablespoon lime juice",
+      "Pepper, to taste",
+      "⅛ teaspoon chili powder",
+      "1 avocado, cubed, divided",
+      "2 chicken breasts, cooked and shredded",
+      "1 celery stalk, diced",
+      "2 tablespoons diced red onion",
+      "Kosher salt, to taste",
+      "Low-carb bread, for serving, optional",
+      "Fresh cilantro leaves, for garnish"
     ]
   },
   {
@@ -61,18 +74,18 @@
     "name": "Tomato And Anchovy Pasta",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/216182.jpg",
     "ingredients": [
-      "1 tablespoon unsalted butter",
-      "10 anchovy filets, finely chopped, divided",
-      "½ cup panko bread crumbs",
-      "½ cup grated Parmigiano-Reggiano cheese",
-      "¼ cup plus 1 tablespoon extra-virgin olive oil, divided",
-      "6 cloves garlic, minced",
-      "½ teaspoon red pepper flakes",
-      "2 pints cherry tomatoes, halved",
-      "1 teaspoon kosher salt, plus more to taste",
-      "1 cup white wine",
-      "1 pound spaghetti, cooked al dente, ¼ cup cooking water reserved",
-      "Lemon zest, to taste"
+      "unsalted butter",
+      "anchovies",
+      "panko breadcrumbs",
+      "freshly grated parmigiano-reggiano cheese",
+      "extra virgin olive oil",
+      "garlic",
+      "red pepper flakes",
+      "cherry tomato",
+      "kosher salt",
+      "white wine",
+      "spaghetti",
+      "lemon  zest"
     ],
     "steps": [
       "Melt the butter in a large skillet over medium heat. Add 4 of the chopped anchovy filets and cook for 1 minute, until they begin to melt.",
@@ -118,6 +131,20 @@
       "under_30_minutes",
       "pescatarian",
       "pasta"
+    ],
+    "ingredientList": [
+      "1 tablespoon unsalted butter",
+      "10 anchovy filets, finely chopped, divided",
+      "½ cup panko bread crumbs",
+      "½ cup grated Parmigiano-Reggiano cheese",
+      "¼ cup plus 1 tablespoon extra-virgin olive oil, divided",
+      "6 cloves garlic, minced",
+      "½ teaspoon red pepper flakes",
+      "2 pints cherry tomatoes, halved",
+      "1 teaspoon kosher salt, plus more to taste",
+      "1 cup white wine",
+      "1 pound spaghetti, cooked al dente, ¼ cup cooking water reserved",
+      "Lemon zest, to taste"
     ]
   },
   {
@@ -125,16 +152,16 @@
     "name": "The Best Chewy Chocolate Chip Cookies",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg",
     "ingredients": [
-      "½ cup sugar",
-      "¾ cup brown sugar, packed",
-      "1 teaspoon salt",
-      "½ cup butter, melted",
-      "1 egg",
-      "1 teaspoon vanilla extract",
-      "1¼ cups all-purpose flour",
-      "½ teaspoon baking soda",
-      "4 ounces milk or semi-sweet chocolate chunks",
-      "4 ounces dark chocolate chunks (or your preference)"
+      "granulated sugar",
+      "brown sugar",
+      "salt",
+      "unsalted butter",
+      "egg",
+      "vanilla extract",
+      "all-purpose flour",
+      "baking soda",
+      "milk or semi-sweet chocolate chunks",
+      "dark chocolate chunk"
     ],
     "steps": [
       "In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.",
@@ -148,13 +175,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "fat": 14,
-      "calories": 273,
-      "sugar": 23,
       "carbohydrates": 34,
       "fiber": 1,
       "updated_at": "2021-09-14T08:07:20+02:00",
-      "protein": 3
+      "protein": 3,
+      "fat": 14,
+      "calories": 273,
+      "sugar": 23
     },
     "tags": [
       "north_american",
@@ -195,6 +222,18 @@
       "snacks",
       "special_occasion",
       "every_occasion"
+    ],
+    "ingredientList": [
+      "½ cup sugar",
+      "¾ cup brown sugar, packed",
+      "1 teaspoon salt",
+      "½ cup butter, melted",
+      "1 egg",
+      "1 teaspoon vanilla extract",
+      "1¼ cups all-purpose flour",
+      "½ teaspoon baking soda",
+      "4 ounces milk or semi-sweet chocolate chunks",
+      "4 ounces dark chocolate chunks (or your preference)"
     ]
   },
   {
@@ -202,15 +241,15 @@
     "name": "Blueberry Cream Muffins",
     "photo": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/4e9524578f544c888af761e10630593b.jpeg",
     "ingredients": [
-      "4 eggs",
-      "2 cups granulated sugar",
-      "1 cup vegetable oil",
-      "1 teaspoon vanilla extract",
-      "4 cups flour",
-      "1 teaspoon baking soda",
-      "2 teaspoons baking powder",
-      "2 cups (16oz) sour cream",
-      "2 cups blueberries"
+      "egg",
+      "granulated sugar",
+      "vegetable oil",
+      "vanilla extract",
+      "flour",
+      "baking soda",
+      "baking powder",
+      "sour cream",
+      "blueberry"
     ],
     "steps": [
       "In a mixing bowl, beat eggs. Gradually add sugar. While beating slowly pour in oil. Add vanilla.",
@@ -222,13 +261,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "carbohydrates": 32,
-      "fiber": 0,
       "updated_at": "2023-07-13T08:05:04+02:00",
       "protein": 4,
       "fat": 13,
       "calories": 264,
-      "sugar": 13
+      "sugar": 13,
+      "carbohydrates": 32,
+      "fiber": 0
     },
     "tags": [
       "vegetarian",
@@ -244,6 +283,17 @@
       "paper_cups",
       "mixing_bowl",
       "cupcakes"
+    ],
+    "ingredientList": [
+      "4 eggs",
+      "2 cups granulated sugar",
+      "1 cup vegetable oil",
+      "1 teaspoon vanilla extract",
+      "4 cups flour",
+      "1 teaspoon baking soda",
+      "2 teaspoons baking powder",
+      "2 cups (16oz) sour cream",
+      "2 cups blueberries"
     ]
   },
   {
@@ -251,14 +301,14 @@
     "name": "Chocolate Chip Cookies",
     "photo": "https://img.buzzfeed.com/video-api-prod/assets/93263b90bdc842b7b56760b657389baa/BFV12155_CookieDoughPrep-ThumbTextless1080.jpg",
     "ingredients": [
-      "2 cups butter, melted",
-      "2 cups packed brown sugar",
-      "2 cups granulated sugar",
-      "4 large eggs",
-      "1 tablespoon vanilla extract",
-      "5 cups all-purpose flour",
-      "2 teaspoons baking soda",
-      "4 cups chocolate chips"
+      "butter",
+      "brown sugar",
+      "granulated sugar",
+      "large egg",
+      "vanilla extract",
+      "all-purpose flour",
+      "baking powder",
+      "chocolate chips"
     ],
     "steps": [
       "Preheat oven to 375°F (190°C).",
@@ -274,13 +324,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "carbohydrates": 48,
       "fiber": 2,
       "updated_at": "2021-05-03T13:26:28+02:00",
       "protein": 5,
       "fat": 22,
       "calories": 395,
-      "sugar": 27
+      "sugar": 27,
+      "carbohydrates": 48
     },
     "tags": [
       "north_american",
@@ -310,6 +360,16 @@
       "under_45_minutes",
       "under_1_hour",
       "high_fiber"
+    ],
+    "ingredientList": [
+      "2 cups butter, melted",
+      "2 cups packed brown sugar",
+      "2 cups granulated sugar",
+      "4 large eggs",
+      "1 tablespoon vanilla extract",
+      "5 cups all-purpose flour",
+      "2 teaspoons baking soda",
+      "4 cups chocolate chips"
     ]
   },
   {
@@ -317,19 +377,19 @@
     "name": "One-Pot Lemon Garlic Shrimp Pasta",
     "photo": "https://img.buzzfeed.com/video-api-prod/assets/9ee2dadcbfcb4095872e6cdbaa24ff14/Thumb_A_FB.jpg",
     "ingredients": [
-      "8 oz linguine",
-      "2 Tbsp. olive oil",
-      "8 Tbsp. (1 stick) unsalted butter",
-      "4 cloves garlic, minced",
-      "1 tsp crushed red pepper",
-      "1¼ lbs large shrimp",
-      "Salt and pepper to taste",
-      "n/a",
-      "1 tsp dried oregano",
-      "4 cups baby spinach",
-      "¼ cup Parmesan",
-      "2 Tbsp. parsley, chopped",
-      "1 Tbsp. lemon juice"
+      "linguine",
+      "olive oil",
+      "unsalted butter",
+      "garlic",
+      "red pepper flakes",
+      "large shrimp",
+      "salt",
+      "pepper",
+      "dried oregano",
+      "baby spinach",
+      "parmesan cheese",
+      "fresh parsley",
+      "lemon juice"
     ],
     "steps": [
       "In a large pot, boil water and add pasta. Cook (stirring frequently) until al dente.",
@@ -342,13 +402,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "calories": 678,
-      "sugar": 2,
-      "carbohydrates": 49,
       "fiber": 4,
       "updated_at": "2022-10-02T08:11:38+02:00",
       "protein": 38,
-      "fat": 37
+      "fat": 37,
+      "calories": 678,
+      "sugar": 2,
+      "carbohydrates": 49
     },
     "tags": [
       "north_american",
@@ -386,6 +446,21 @@
       "pasta",
       "seafood_pasta",
       "bushs_meal_planning"
+    ],
+    "ingredientList": [
+      "8 oz linguine",
+      "2 Tbsp. olive oil",
+      "8 Tbsp. (1 stick) unsalted butter",
+      "4 cloves garlic, minced",
+      "1 tsp crushed red pepper",
+      "1¼ lbs large shrimp",
+      "Salt and pepper to taste",
+      "n/a",
+      "1 tsp dried oregano",
+      "4 cups baby spinach",
+      "¼ cup Parmesan",
+      "2 Tbsp. parsley, chopped",
+      "1 Tbsp. lemon juice"
     ]
   },
   {
@@ -393,20 +468,20 @@
     "name": "One-Pot Chicken Fajita Pasta",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/128650.jpg",
     "ingredients": [
-      "3 tablespoons oil",
-      "3 chicken breasts, sliced",
-      "1 red bell pepper, sliced",
-      "1 green bell pepper, sliced",
-      "1 yellow bell pepper, sliced",
-      "1 onion, sliced",
-      "1 teaspoon salt",
-      "1 teaspoon pepper",
-      "1 tablespoon chili powder",
-      "1 tablespoon cumin",
-      "1 tablespoon garlic powder",
-      "5 cups milk",
-      "4 cups penne pasta",
-      "1 cup pepper jack cheese, shredded"
+      "neutral oil",
+      "chicken breast",
+      "red bell pepper",
+      "green bell pepper",
+      "yellow bell pepper",
+      "yellow onion",
+      "kosher salt",
+      "freshly ground black pepper",
+      "chili powder",
+      "cumin",
+      "garlic powder",
+      "milk",
+      "penne pasta",
+      "pepper jack cheese"
     ],
     "steps": [
       "Heat the oil in a large pot over high heat.",
@@ -419,13 +494,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "carbohydrates": 82,
       "fiber": 16,
       "updated_at": "2023-04-25T08:05:18+02:00",
       "protein": 57,
       "fat": 33,
       "calories": 862,
-      "sugar": 22,
-      "carbohydrates": 82
+      "sugar": 22
     },
     "tags": [
       "north_american",
@@ -457,6 +532,22 @@
       "southwestern",
       "chicken",
       "pasta"
+    ],
+    "ingredientList": [
+      "3 tablespoons oil",
+      "3 chicken breasts, sliced",
+      "1 red bell pepper, sliced",
+      "1 green bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "1 onion, sliced",
+      "1 teaspoon salt",
+      "1 teaspoon pepper",
+      "1 tablespoon chili powder",
+      "1 tablespoon cumin",
+      "1 tablespoon garlic powder",
+      "5 cups milk",
+      "4 cups penne pasta",
+      "1 cup pepper jack cheese, shredded"
     ]
   },
   {
@@ -464,9 +555,9 @@
     "name": "3-Ingredient Teriyaki Chicken",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1d47125afffa461a9711758f632306b8/BFV12484_3-IngredientDinners-FB1080SQ.jpg",
     "ingredients": [
-      "2 pounds chicken thighs, sliced into chunks",
-      "1 cup soy sauce",
-      "½ cup brown sugar"
+      "boneless, skinless chicken thighs",
+      "soy sauce",
+      "brown sugar"
     ],
     "steps": [
       "Heat a large nonstick pan over medium-high heat. Add the chicken and sear until golden brown on both sides.",
@@ -475,13 +566,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "fiber": 0,
+      "updated_at": "2022-11-30T07:09:52+01:00",
       "protein": 48,
       "fat": 9,
       "calories": 366,
       "sugar": 17,
-      "carbohydrates": 20,
-      "fiber": 0,
-      "updated_at": "2022-11-30T07:09:52+01:00"
+      "carbohydrates": 20
     },
     "tags": [
       "north_american",
@@ -508,6 +599,11 @@
       "under_45_minutes",
       "under_1_hour",
       "high_protein"
+    ],
+    "ingredientList": [
+      "2 pounds chicken thighs, sliced into chunks",
+      "1 cup soy sauce",
+      "½ cup brown sugar"
     ]
   },
   {
@@ -515,15 +611,15 @@
     "name": "One-Pot Garlic Parmesan Pasta",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/f69a7f4192b94d8395757b365ac6d866/GarlicParmPasta.jpg",
     "ingredients": [
-      "n/a",
-      "4 cloves garlic, minced",
-      "2 cups chicken broth",
-      "1 cup milk",
-      "8 ounces fettuccine",
-      "Salt, to taste",
-      "Pepper, to taste",
-      "¼ cup grated Parmesan cheese",
-      "2 tablespoons parsley, chopped"
+      "unsalted butter",
+      "garlic",
+      "chicken broth",
+      "milk",
+      "fettuccine",
+      "salt",
+      "pepper",
+      "grated parmesan cheese",
+      "fresh parsley"
     ],
     "steps": [
       "Heat unsalted butter in a large skillet over medium high heat. Add garlic and cook, stirring frequently, until fragrant, about 1-2 minutes.",
@@ -534,13 +630,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "calories": 334,
-      "sugar": 6,
       "carbohydrates": 49,
       "fiber": 1,
       "updated_at": "2023-06-16T08:08:15+02:00",
       "protein": 13,
-      "fat": 10
+      "fat": 10,
+      "calories": 334,
+      "sugar": 6
     },
     "tags": [
       "italian",
@@ -567,6 +663,17 @@
       "under_30_minutes",
       "meal_prep",
       "pasta"
+    ],
+    "ingredientList": [
+      "n/a",
+      "4 cloves garlic, minced",
+      "2 cups chicken broth",
+      "1 cup milk",
+      "8 ounces fettuccine",
+      "Salt, to taste",
+      "Pepper, to taste",
+      "¼ cup grated Parmesan cheese",
+      "2 tablespoons parsley, chopped"
     ]
   },
   {
@@ -574,15 +681,15 @@
     "name": "Chocolate Mug Cake",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/d33059f213074dda896f7e2f96450be2/BFV18819_MugCakesFourWays-FB.jpg",
     "ingredients": [
-      "4 tablespoons flour",
-      "3 tablespoons sugar",
-      "2 tablespoons cocoa powder",
-      "½ teaspoon baking powder",
-      "3 tablespoons milk",
-      "1 tablespoon oil, such as vegetable or canola",
-      "1 teaspoon vanilla extract",
-      "1 tablespoon chocolate hazelnut spread",
-      "n/a"
+      "flour",
+      "sugar",
+      "cocoa powder",
+      "baking powder",
+      "milk",
+      "oil",
+      "vanilla extract",
+      "chocolate  hazelnut spread",
+      "powdered sugar"
     ],
     "steps": [
       "In a 12-ounce (375 ml) mug or larger, mix all ingredients (except the chocolate hazelnut spread) until just combined.",
@@ -592,13 +699,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "fiber": 4,
+      "updated_at": "2021-05-03T13:28:18+02:00",
+      "protein": 8,
       "fat": 20,
       "calories": 500,
       "sugar": 36,
-      "carbohydrates": 72,
-      "fiber": 4,
-      "updated_at": "2021-05-03T13:28:18+02:00",
-      "protein": 8
+      "carbohydrates": 72
     },
     "tags": [
       "north_american",
@@ -619,6 +726,103 @@
       "baking",
       "indulgent_sweets",
       "one_pot_or_pan"
+    ],
+    "ingredientList": [
+      "4 tablespoons flour",
+      "3 tablespoons sugar",
+      "2 tablespoons cocoa powder",
+      "½ teaspoon baking powder",
+      "3 tablespoons milk",
+      "1 tablespoon oil, such as vegetable or canola",
+      "1 teaspoon vanilla extract",
+      "1 tablespoon chocolate hazelnut spread",
+      "n/a"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Creamy Chicken Penne Pasta",
+    "photo": "https://img.buzzfeed.com/video-api-prod/assets/641e3c1a5f2a48f29b605bff9cbe72b6/BFV10263_CreamyChickenPenne-Thumb1080.jpg",
+    "ingredients": [
+      "bacon",
+      "chicken breast",
+      "salt",
+      "pepper",
+      "italian seasoning",
+      "paprika",
+      "garlic",
+      "spinach",
+      "small tomato",
+      "cream",
+      "shredded parmesan cheese",
+      "red pepper flakes",
+      "penne pasta",
+      "Chopped fresh parsley"
+    ],
+    "steps": [
+      "In a deep skillet, fry the bacon until crispy. Remove to a paper towel to drain, then chop.",
+      "In the same skillet, add the chicken and season with salt, pepper, Italian seasoning, and paprika. Cook until no longer pink inside.",
+      "Add the garlic and cook until softened.",
+      "Add spinach and tomatoes and cook until the spinach is wilted.",
+      "Add the cream, Parmesan, an red pepper flakes and bring to a boil.",
+      "Add the penne and bacon, and stir until fully coated in sauce.",
+      "Serve with parsley, Parmesan, and red pepper flakes, if desired.",
+      "Enjoy!"
+    ],
+    "nutrition": {
+      "calories": 703,
+      "sugar": 5,
+      "carbohydrates": 37,
+      "fiber": 2,
+      "updated_at": "2022-10-02T08:05:26+02:00",
+      "protein": 47,
+      "fat": 46
+    },
+    "tags": [
+      "north_american",
+      "italian",
+      "comfort_food",
+      "easy",
+      "dinner",
+      "weeknight",
+      "fusion",
+      "stove_top",
+      "pan_fry",
+      "pyrex",
+      "saute_pan",
+      "strainer",
+      "tongs",
+      "chefs_knife",
+      "cutting_board",
+      "liquid_measuring_cup",
+      "dry_measuring_cups",
+      "measuring_spoons",
+      "mccormick_easy_dinner",
+      "under_30_minutes",
+      "meal_prep",
+      "under_45_minutes",
+      "under_1_hour",
+      "high_protein",
+      "low_sugar",
+      "chicken",
+      "pasta",
+      "high_fiber"
+    ],
+    "ingredientList": [
+      "4 slices bacon",
+      "2 chicken breasts, sliced",
+      "Salt & pepper to taste",
+      "n/a",
+      "2 teaspoons Italian seasoning",
+      "1 teaspoon paprika",
+      "2 cloves garlic, minced",
+      "2 cups spinach",
+      "4 small tomatoes, diced",
+      "1 ½ cups cream",
+      "1 cup shredded parmesan",
+      "½ teaspoon red pepper flakes",
+      "10 ounces penne, cooked al dente",
+      "n/a"
     ]
   },
   {
@@ -626,22 +830,22 @@
     "name": "Creamy Cajun Pasta",
     "photo": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/6d9b54963ad9442aa9320076a7bbf0bf.jpeg",
     "ingredients": [
-      "2 tablespoons unsalted butter",
-      "1 pound spicy Italian sausage links, cut into rounds",
-      "Kosher salt, to taste",
-      "1 medium yellow onion, thinly sliced",
-      "1 jalapeño, seeded and minced",
-      "1 tablespoon minced garlic",
-      "1 tablespoon tomato paste",
-      "2 tablespoons McCormick® Jazzy Spice Blend",
-      "1 pound dried penne pasta",
-      "1 red bell pepper, seeded and thinly sliced",
-      "1 green bell pepper, seeded and thinly sliced",
-      "8 ounces button mushrooms, stemmed and sliced",
-      "1 14.5-ounce can of fire-roasted tomatoes",
-      "4 cups chicken stock",
-      "5 ounces cream cheese, cubed",
-      "2 scallions, thinly sliced, for garnish"
+      "unsalted butter",
+      "spicy italian sausage",
+      "kosher salt",
+      "medium yellow onion",
+      "jalapeño",
+      "minced garlic",
+      "tomato paste",
+      "McCormick® Jazzy Spice Blend",
+      "dried penne pasta",
+      "red bell pepper",
+      "green bell pepper",
+      "button mushrooms",
+      "fire-roasted tomato",
+      "chicken stock",
+      "cream cheese",
+      "scallions"
     ],
     "steps": [
       "In a large, heavy-bottomed pot, melt the butter over medium heat until just bubbling. Add the sausage, then season with salt. Brown for 2 minutes on one side, then stir and brown on the other side for 2 minutes more.",
@@ -652,13 +856,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "carbohydrates": 83,
       "fiber": 4,
       "updated_at": "2020-12-14T00:37:58+01:00",
       "protein": 18,
       "fat": 52,
       "calories": 887,
-      "sugar": 12
+      "sugar": 12,
+      "carbohydrates": 83
     },
     "tags": [
       "north_american",
@@ -681,6 +885,106 @@
       "southern",
       "pasta",
       "big_batch"
+    ],
+    "ingredientList": [
+      "2 tablespoons unsalted butter",
+      "1 pound spicy Italian sausage links, cut into rounds",
+      "Kosher salt, to taste",
+      "1 medium yellow onion, thinly sliced",
+      "1 jalapeño, seeded and minced",
+      "1 tablespoon minced garlic",
+      "1 tablespoon tomato paste",
+      "2 tablespoons McCormick® Jazzy Spice Blend",
+      "1 pound dried penne pasta",
+      "1 red bell pepper, seeded and thinly sliced",
+      "1 green bell pepper, seeded and thinly sliced",
+      "8 ounces button mushrooms, stemmed and sliced",
+      "1 14.5-ounce can of fire-roasted tomatoes",
+      "4 cups chicken stock",
+      "5 ounces cream cheese, cubed",
+      "2 scallions, thinly sliced, for garnish"
+    ]
+  },
+  {
+    "id": 1565,
+    "name": "Garlic Shrimp Bacon Alfredo",
+    "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1c17e86f91b94748bf4cf52ba781c789/BFV16661_ShrimpAlfredoDinnerForTwoFINAL.jpg",
+    "ingredients": [
+      "bacon",
+      "shrimp",
+      "salt",
+      "black pepper",
+      "medium yellow onion",
+      "medium tomato",
+      "garlic",
+      "heavy cream",
+      "fettuccine",
+      "grated parmesan cheese",
+      "fresh parlsey"
+    ],
+    "steps": [
+      "In a large pot, cook the bacon over medium heat until crispy.",
+      "Add the shrimp, salt, and pepper and cook until the shrimp is pink and opaque. Remove the shrimp and bacon from the pot, leaving any fat from cooking the bacon behind.",
+      "Add the onions, tomatoes, and garlic to the pot and cook until the garlic is starting to brown.",
+      "Add the cream and bring to a boil.",
+      "Once the cream is boiling, add the fettuccine. Return the shrimp and bacon to the pan, along with the Parmesan cheese and parsley. Stir until the cheese melts and the sauce coats the shrimp and pasta nicely.",
+      "Nutrition  Calories: 2185 Fat: 125 grams  Carbs: 192 grams Fiber: 9 grams  Sugars: 20 grams  Protein: 103 grams",
+      "Enjoy!"
+    ],
+    "nutrition": {
+      "carbohydrates": 96,
+      "fiber": 4,
+      "updated_at": "2023-07-15T08:08:27+02:00",
+      "protein": 49,
+      "fat": 54,
+      "calories": 1015,
+      "sugar": 8
+    },
+    "tags": [
+      "north_american",
+      "italian",
+      "seafood",
+      "comfort_food",
+      "under_30_minutes",
+      "valentines_day",
+      "dinner",
+      "date_night",
+      "weeknight",
+      "fusion",
+      "stove_top",
+      "pan_fry",
+      "colander",
+      "pyrex",
+      "sauce_pan",
+      "spatula",
+      "tongs",
+      "wooden_spoon",
+      "chefs_knife",
+      "cutting_board",
+      "liquid_measuring_cup",
+      "dry_measuring_cups",
+      "measuring_spoons",
+      "under_45_minutes",
+      "under_1_hour",
+      "high_protein",
+      "meal_prep",
+      "pasta",
+      "saute_pan",
+      "high_fiber",
+      "indulgent_sweets"
+    ],
+    "ingredientList": [
+      "6 slices bacon, chopped",
+      "1 pound shrimp, deveined and peeled",
+      "1 teaspoon salt",
+      "½ teaspoon black pepper",
+      "½ onion, diced",
+      "1 medium tomato, diced",
+      "3 cloves garlic, minced",
+      "2 cups heavy cream",
+      "1 pound fettuccine, cooked",
+      "1 cup parmesan cheese, grated",
+      "½ parsley, chopped"
     ]
   },
   {
@@ -688,19 +992,19 @@
     "name": "Chicken & Veggie Stir-Fry",
     "photo": "https://img.buzzfeed.com/video-api-prod/assets/cf779f07644e43d988e37652a4987d7f/BFV12730_ChickenBroccoliandMushroomStirFry-ThumbTextless1080.jpg",
     "ingredients": [
-      "1 pound chicken breast, cubed",
-      "Salt, to taste",
-      "Pepper, to taste",
-      "1 pound broccoli florets",
-      "8 ounces mushrooms, sliced",
-      "3 tablespoons oil for frying",
-      "3 cloves garlic, minced",
-      "1 tablespoon ginger, minced",
-      "2 teaspoons sesame oil",
-      "⅓ cup reduced sodium soy sauce",
-      "1 tablespoon brown sugar",
-      "1 cup chicken broth",
-      "¼ cup flour"
+      "chicken breast",
+      "salt",
+      "pepper",
+      "broccoli florets",
+      "mushroom",
+      "oil",
+      "garlic",
+      "ginger",
+      "sesame oil",
+      "reduced sodium soy sauce",
+      "brown sugar",
+      "chicken broth",
+      "flour"
     ],
     "steps": [
       "In a large pan on medium-high heat, add 1 tablespoon of oil.  Once the oil is hot, add chicken, season with salt and pepper, and sauté until cooked through and browned. Remove cooked chicken from pan and set aside.",
@@ -711,13 +1015,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "carbohydrates": 14,
+      "fiber": 3,
       "updated_at": "2022-10-02T08:11:09+02:00",
       "protein": 28,
       "fat": 11,
       "calories": 272,
-      "sugar": 3,
-      "carbohydrates": 14,
-      "fiber": 3
+      "sugar": 3
     },
     "tags": [
       "north_american",
@@ -753,76 +1057,21 @@
       "asian",
       "chicken",
       "stir_fry"
-    ]
-  },
-  {
-    "id": 48,
-    "name": "Creamy Chicken Penne Pasta",
-    "photo": "https://img.buzzfeed.com/video-api-prod/assets/641e3c1a5f2a48f29b605bff9cbe72b6/BFV10263_CreamyChickenPenne-Thumb1080.jpg",
-    "ingredients": [
-      "4 slices bacon",
-      "2 chicken breasts, sliced",
-      "Salt & pepper to taste",
-      "n/a",
-      "2 teaspoons Italian seasoning",
-      "1 teaspoon paprika",
-      "2 cloves garlic, minced",
-      "2 cups spinach",
-      "4 small tomatoes, diced",
-      "1 ½ cups cream",
-      "1 cup shredded parmesan",
-      "½ teaspoon red pepper flakes",
-      "10 ounces penne, cooked al dente",
-      "n/a"
     ],
-    "steps": [
-      "In a deep skillet, fry the bacon until crispy. Remove to a paper towel to drain, then chop.",
-      "In the same skillet, add the chicken and season with salt, pepper, Italian seasoning, and paprika. Cook until no longer pink inside.",
-      "Add the garlic and cook until softened.",
-      "Add spinach and tomatoes and cook until the spinach is wilted.",
-      "Add the cream, Parmesan, an red pepper flakes and bring to a boil.",
-      "Add the penne and bacon, and stir until fully coated in sauce.",
-      "Serve with parsley, Parmesan, and red pepper flakes, if desired.",
-      "Enjoy!"
-    ],
-    "nutrition": {
-      "carbohydrates": 37,
-      "fiber": 2,
-      "updated_at": "2022-10-02T08:05:26+02:00",
-      "protein": 47,
-      "fat": 46,
-      "calories": 703,
-      "sugar": 5
-    },
-    "tags": [
-      "north_american",
-      "italian",
-      "comfort_food",
-      "easy",
-      "dinner",
-      "weeknight",
-      "fusion",
-      "stove_top",
-      "pan_fry",
-      "pyrex",
-      "saute_pan",
-      "strainer",
-      "tongs",
-      "chefs_knife",
-      "cutting_board",
-      "liquid_measuring_cup",
-      "dry_measuring_cups",
-      "measuring_spoons",
-      "mccormick_easy_dinner",
-      "under_30_minutes",
-      "meal_prep",
-      "under_45_minutes",
-      "under_1_hour",
-      "high_protein",
-      "low_sugar",
-      "chicken",
-      "pasta",
-      "high_fiber"
+    "ingredientList": [
+      "1 pound chicken breast, cubed",
+      "Salt, to taste",
+      "Pepper, to taste",
+      "1 pound broccoli florets",
+      "8 ounces mushrooms, sliced",
+      "3 tablespoons oil for frying",
+      "3 cloves garlic, minced",
+      "1 tablespoon ginger, minced",
+      "2 teaspoons sesame oil",
+      "⅓ cup reduced sodium soy sauce",
+      "1 tablespoon brown sugar",
+      "1 cup chicken broth",
+      "¼ cup flour"
     ]
   },
   {
@@ -830,9 +1079,9 @@
     "name": "3 Ingredient Peanut Butter Cookies",
     "photo": "https://img.buzzfeed.com/video-api-prod/assets/334c9eee7f37412fba5111e291dd6cb1/YT_Thumb.jpg",
     "ingredients": [
-      "1 cup peanut butter",
-      "½ cup sugar",
-      "1 egg"
+      "peanut butter",
+      "sugar",
+      "egg"
     ],
     "steps": [
       "Preheat oven to 350ºF (180ºC).",
@@ -844,13 +1093,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "protein": 2,
-      "fat": 5,
-      "calories": 81,
       "sugar": 3,
       "carbohydrates": 5,
       "fiber": 0,
-      "updated_at": "2021-05-03T13:28:49+02:00"
+      "updated_at": "2021-05-03T13:28:49+02:00",
+      "protein": 2,
+      "fat": 5,
+      "calories": 81
     },
     "tags": [
       "north_american",
@@ -881,6 +1130,11 @@
       "low_calorie",
       "low_sugar",
       "cookies"
+    ],
+    "ingredientList": [
+      "1 cup peanut butter",
+      "½ cup sugar",
+      "1 egg"
     ]
   },
   {
@@ -888,24 +1142,24 @@
     "name": "Easy Chicken Alfredo Penne",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/9768.jpg",
     "ingredients": [
-      "2 tablespoons butter",
-      "1½ pounds (700 grams) chicken breast, cubed",
-      "½ teaspoon dried oregano",
-      "½ teaspoon dried basil",
-      "½ teaspoon salt",
-      "½ teaspoon pepper",
-      "16 ounces (450 grams) penne pasta, cooked",
-      "¼ cup parsley",
-      "¼ cup parmesan, shredded",
-      "2 tablespoons butter",
-      "4 cloves garlic, minced",
-      "3 tablespoons flour",
-      "2 cups milk",
-      "½ teaspoon salt",
-      "½ teaspoon pepper",
-      "½ teaspoon oregano",
-      "½ teaspoon basil",
-      "1/2 cup parmesan, shredded"
+      "unsalted butter",
+      "boneless, skinless chicken breasts",
+      "dried oregano",
+      "dried basil",
+      "kosher salt",
+      "freshly ground black pepper",
+      "penne pasta",
+      "fresh parsley",
+      "shredded parmesan cheese",
+      "unsalted butter",
+      "garlic",
+      "all-purpose flour",
+      "milk",
+      "kosher salt",
+      "freshly ground black pepper",
+      "dried oregano",
+      "dried basil",
+      "shredded parmesan cheese"
     ],
     "steps": [
       "Melt the butter in a large pan over medium-high heat, then add the chicken breasts. Season with the salt, pepper, oregano, and basil. Cook 8-10 minutes, or until the chicken is fully cooked. Remove the chicken from the pan and set aside.",
@@ -915,13 +1169,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "fiber": 0,
       "updated_at": "2022-10-02T08:09:27+02:00",
       "protein": 38,
       "fat": 20,
       "calories": 464,
       "sugar": 4,
-      "carbohydrates": 34,
-      "fiber": 0
+      "carbohydrates": 34
     },
     "tags": [
       "north_american",
@@ -954,75 +1208,26 @@
       "chicken",
       "pasta",
       "walmart_meal_planning_august"
-    ]
-  },
-  {
-    "id": 1565,
-    "name": "Garlic Shrimp Bacon Alfredo",
-    "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1c17e86f91b94748bf4cf52ba781c789/BFV16661_ShrimpAlfredoDinnerForTwoFINAL.jpg",
-    "ingredients": [
-      "6 slices bacon, chopped",
-      "1 pound shrimp, deveined and peeled",
-      "1 teaspoon salt",
-      "½ teaspoon black pepper",
-      "½ onion, diced",
-      "1 medium tomato, diced",
-      "3 cloves garlic, minced",
-      "2 cups heavy cream",
-      "1 pound fettuccine, cooked",
-      "1 cup parmesan cheese, grated",
-      "½ parsley, chopped"
     ],
-    "steps": [
-      "In a large pot, cook the bacon over medium heat until crispy.",
-      "Add the shrimp, salt, and pepper and cook until the shrimp is pink and opaque. Remove the shrimp and bacon from the pot, leaving any fat from cooking the bacon behind.",
-      "Add the onions, tomatoes, and garlic to the pot and cook until the garlic is starting to brown.",
-      "Add the cream and bring to a boil.",
-      "Once the cream is boiling, add the fettuccine. Return the shrimp and bacon to the pan, along with the Parmesan cheese and parsley. Stir until the cheese melts and the sauce coats the shrimp and pasta nicely.",
-      "Nutrition  Calories: 2185 Fat: 125 grams  Carbs: 192 grams Fiber: 9 grams  Sugars: 20 grams  Protein: 103 grams",
-      "Enjoy!"
-    ],
-    "nutrition": {
-      "fiber": 4,
-      "updated_at": "2023-07-15T08:08:27+02:00",
-      "protein": 49,
-      "fat": 54,
-      "calories": 1015,
-      "sugar": 8,
-      "carbohydrates": 96
-    },
-    "tags": [
-      "north_american",
-      "italian",
-      "seafood",
-      "comfort_food",
-      "under_30_minutes",
-      "valentines_day",
-      "dinner",
-      "date_night",
-      "weeknight",
-      "fusion",
-      "stove_top",
-      "pan_fry",
-      "colander",
-      "pyrex",
-      "sauce_pan",
-      "spatula",
-      "tongs",
-      "wooden_spoon",
-      "chefs_knife",
-      "cutting_board",
-      "liquid_measuring_cup",
-      "dry_measuring_cups",
-      "measuring_spoons",
-      "under_45_minutes",
-      "under_1_hour",
-      "high_protein",
-      "meal_prep",
-      "pasta",
-      "saute_pan",
-      "high_fiber",
-      "indulgent_sweets"
+    "ingredientList": [
+      "2 tablespoons butter",
+      "1½ pounds (700 grams) chicken breast, cubed",
+      "½ teaspoon dried oregano",
+      "½ teaspoon dried basil",
+      "½ teaspoon salt",
+      "½ teaspoon pepper",
+      "16 ounces (450 grams) penne pasta, cooked",
+      "¼ cup parsley",
+      "¼ cup parmesan, shredded",
+      "2 tablespoons butter",
+      "4 cloves garlic, minced",
+      "3 tablespoons flour",
+      "2 cups milk",
+      "½ teaspoon salt",
+      "½ teaspoon pepper",
+      "½ teaspoon oregano",
+      "½ teaspoon basil",
+      "1/2 cup parmesan, shredded"
     ]
   },
   {
@@ -1030,13 +1235,13 @@
     "name": "Easy One-pot Mac ‘n’ Cheese",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/3c0710e0531b41b7804acf4a52ee15be/FB_04forpkg.jpg",
     "ingredients": [
-      "5 cups whole milk",
-      "1 box elbow macaroni",
-      "½ cup butter",
-      "2 cups cheddar cheese",
-      "Salt, to taste",
-      "Pepper, to taste",
-      "Parsley, to serve"
+      "whole milk",
+      "elbow macaroni",
+      "butter",
+      "cheddar cheese",
+      "salt",
+      "pepper",
+      "fresh parsley"
     ],
     "steps": [
       "In a large pot on medium-high heat, gently heat the milk to a simmer.",
@@ -1046,13 +1251,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "carbohydrates": 70,
       "fiber": 0,
       "updated_at": "2022-10-02T08:08:24+02:00",
       "protein": 22,
       "fat": 27,
       "calories": 630,
-      "sugar": 11
+      "sugar": 11,
+      "carbohydrates": 70
     },
     "tags": [
       "north_american",
@@ -1086,6 +1291,15 @@
       "difficulty",
       "pasta",
       "macaroni_cheese"
+    ],
+    "ingredientList": [
+      "5 cups whole milk",
+      "1 box elbow macaroni",
+      "½ cup butter",
+      "2 cups cheddar cheese",
+      "Salt, to taste",
+      "Pepper, to taste",
+      "Parsley, to serve"
     ]
   },
   {
@@ -1093,19 +1307,19 @@
     "name": "One-Pot Swedish Meatball Pasta",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/37b0c33cf11a481f8189f6c37422b704/BFV8525_One-Pot_Swedish_Meatball_Pasta-FB1080.jpg",
     "ingredients": [
-      "1 pound ground beef",
-      "½ cup seasoned bread crumbs",
-      "½ finely minced onion",
-      "1 egg",
-      "½ tablespoon salt (for meatballs)",
-      "½ tablespoon pepper (for meatballs)",
-      "2 tablespoons canola oil",
-      "2 cups beef broth",
-      "2 cups milk",
-      "1 tablespoons Worcestershire sauce",
-      "4 cups egg noodles",
-      "1 cup shredded Parmesan cheese",
-      "½ cup chopped parsley"
+      "ground beef",
+      "seasoned bread crumbs",
+      "onion",
+      "egg",
+      "kosher salt",
+      "pepper",
+      "canola oil",
+      "beef broth",
+      "milk",
+      "worcestershire sauce",
+      "egg noodle",
+      "shredded parmesan cheese",
+      "fresh parsley"
     ],
     "steps": [
       "In a large bowl, combine the ground beef, breadcrumbs, onion, egg, ½ tablespoon salt, and ½ tablespoon pepper, mixing until evenly combined.",
@@ -1116,13 +1330,13 @@
       "Enjoy!"
     ],
     "nutrition": {
+      "fiber": 40,
       "updated_at": "2022-10-02T08:10:23+02:00",
       "protein": 60,
       "fat": 52,
       "calories": 1114,
       "sugar": 16,
-      "carbohydrates": 89,
-      "fiber": 40
+      "carbohydrates": 89
     },
     "tags": [
       "comfort_food",
@@ -1155,73 +1369,21 @@
       "high_fiber",
       "beef",
       "pasta"
-    ]
-  },
-  {
-    "id": 1534,
-    "name": "Scalloped Potatoes",
-    "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/05a07209a87849729d88fdc9275e98b9/BFV15870_SteakDinnerForTwo2.jpg",
-    "ingredients": [
-      "1 tablespoon butter",
-      "2 cloves garlic",
-      "1 tablespoon flour",
-      "1 cup milk",
-      "1 teaspoon salt",
-      "½ teaspoon pepper",
-      "3-4 Yukon gold potatoes, peeled",
-      "2 tablespoons grated parmesan",
-      "Chopped parsley, for garnish"
     ],
-    "steps": [
-      "Preheat oven to 350°F (180°C).",
-      "In a small pot, melt the butter and fry the garlic until it’s just starting to brown. Add the flour, salt and pepper. whisk until there are no lumps.",
-      "Slowly drizzle in the milk while constantly whisking to make sure the mixture is smooth.",
-      "Bring to a boil, then remove from heat.",
-      "Slice the potatoes into about ⅛-inch (3 mm) thick slices, then fan them out in a small baking dish.",
-      "Pour the sauce on top of the potatoes, then sprinkle with parmesan.",
-      "Bake for about 1 hour, until the top is bubbly and golden brown.",
-      "Sprinkle chopped parsley on top, then serve.",
-      "Enjoy!"
-    ],
-    "nutrition": {},
-    "tags": [
-      "north_american",
-      "comfort_food",
-      "vegetarian",
-      "thanksgiving",
-      "valentines_day",
-      "sides",
-      "baking",
-      "weeknight",
-      "stove_top",
-      "special_occasion",
-      "oven_mitts",
-      "pyrex",
-      "sauce_pan",
-      "spatula",
-      "wooden_spoon",
-      "chefs_knife",
-      "cutting_board",
-      "chop_champ",
-      "walmart_holiday_bundle",
-      "best_of_tasty",
-      "thanksgiving_sides",
-      "shoppable_recipes_holiday_dinners",
-      "easy",
-      "dinner",
-      "lunch",
-      "whisk",
-      "baking_pan",
-      "under_1_hour",
-      "european",
-      "under_30_minutes",
-      "date_night",
-      "one_pot_or_pan",
-      "baking_kit",
-      "mixing_bowl",
-      "low_fat",
-      "high_fiber",
-      "meal"
+    "ingredientList": [
+      "1 pound ground beef",
+      "½ cup seasoned bread crumbs",
+      "½ finely minced onion",
+      "1 egg",
+      "½ tablespoon salt (for meatballs)",
+      "½ tablespoon pepper (for meatballs)",
+      "2 tablespoons canola oil",
+      "2 cups beef broth",
+      "2 cups milk",
+      "1 tablespoons Worcestershire sauce",
+      "4 cups egg noodles",
+      "1 cup shredded Parmesan cheese",
+      "½ cup chopped parsley"
     ]
   },
   {
@@ -1229,21 +1391,21 @@
     "name": "How to Make Cinnamon Rolls",
     "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/c590df339d91402ab44486048fa17119/Tasty101_CinnamonRolls_Gwen_Final_1.jpg",
     "ingredients": [
-      "2 cups whole milk, warm to the touch",
-      "½ cup granulated sugar",
-      "½ cup (1 stick) unsalted butter, melted",
-      "2¼ teaspoons (1 packet) active dry yeast",
-      "5 cups all-purpose flour, divided",
-      "1 teaspoon baking powder",
-      "2 teaspoons kosher salt",
-      "¾ cup light brown sugar",
-      "¾ cup (1½ sticks) unsalted butter, softened",
-      "2 tablespoons ground cinnamon",
-      "4 ounces cream cheese, softened and cubed",
-      "2 tablespoons unsalted butter, melted",
-      "4 tablespoons milk",
-      "1 teaspoon vanilla extract",
-      "1 cup powdered sugar"
+      "whole milk",
+      "sugar",
+      "unsalted butter",
+      "active dry yeast",
+      "all-purpose flour",
+      "baking powder",
+      "kosher salt",
+      "light brown sugar",
+      "unsalted butter",
+      "ground cinnamon",
+      "cream cheese",
+      "unsalted butter",
+      "milk",
+      "vanilla extract",
+      "powdered sugar"
     ],
     "steps": [
       "Make the dough: In a large bowl, whisk together the warm milk, sugar, and melted butter. The mixture should be just warm, registering between 100-110˚F (37-43˚C). If any warmer, allow to cool slightly.",
@@ -1266,13 +1428,13 @@
       "Enjoy!"
     ],
     "nutrition": {
-      "updated_at": "2023-07-21T08:06:43+02:00",
-      "protein": 8,
-      "fat": 25,
       "calories": 558,
       "sugar": 28,
       "carbohydrates": 74,
-      "fiber": 10
+      "fiber": 10,
+      "updated_at": "2023-07-21T08:06:43+02:00",
+      "protein": 8,
+      "fat": 25
     },
     "tags": [
       "north_american",
@@ -1330,6 +1492,101 @@
       "sweet_breakfasts",
       "breakfast_sandwiches",
       "breads_pastries"
+    ],
+    "ingredientList": [
+      "2 cups whole milk, warm to the touch",
+      "½ cup granulated sugar",
+      "½ cup (1 stick) unsalted butter, melted",
+      "2¼ teaspoons (1 packet) active dry yeast",
+      "5 cups all-purpose flour, divided",
+      "1 teaspoon baking powder",
+      "2 teaspoons kosher salt",
+      "¾ cup light brown sugar",
+      "¾ cup (1½ sticks) unsalted butter, softened",
+      "2 tablespoons ground cinnamon",
+      "4 ounces cream cheese, softened and cubed",
+      "2 tablespoons unsalted butter, melted",
+      "4 tablespoons milk",
+      "1 teaspoon vanilla extract",
+      "1 cup powdered sugar"
+    ]
+  },
+  {
+    "id": 1534,
+    "name": "Scalloped Potatoes",
+    "photo": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/05a07209a87849729d88fdc9275e98b9/BFV15870_SteakDinnerForTwo2.jpg",
+    "ingredients": [
+      "butter",
+      "garlic",
+      "flour",
+      "milk",
+      "salt",
+      "pepper",
+      "yukon potato",
+      "grated parmesan cheese",
+      "fresh parsley"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (180°C).",
+      "In a small pot, melt the butter and fry the garlic until it’s just starting to brown. Add the flour, salt and pepper. whisk until there are no lumps.",
+      "Slowly drizzle in the milk while constantly whisking to make sure the mixture is smooth.",
+      "Bring to a boil, then remove from heat.",
+      "Slice the potatoes into about ⅛-inch (3 mm) thick slices, then fan them out in a small baking dish.",
+      "Pour the sauce on top of the potatoes, then sprinkle with parmesan.",
+      "Bake for about 1 hour, until the top is bubbly and golden brown.",
+      "Sprinkle chopped parsley on top, then serve.",
+      "Enjoy!"
+    ],
+    "nutrition": {},
+    "tags": [
+      "north_american",
+      "comfort_food",
+      "vegetarian",
+      "thanksgiving",
+      "valentines_day",
+      "sides",
+      "baking",
+      "weeknight",
+      "stove_top",
+      "special_occasion",
+      "oven_mitts",
+      "pyrex",
+      "sauce_pan",
+      "spatula",
+      "wooden_spoon",
+      "chefs_knife",
+      "cutting_board",
+      "chop_champ",
+      "walmart_holiday_bundle",
+      "best_of_tasty",
+      "thanksgiving_sides",
+      "shoppable_recipes_holiday_dinners",
+      "easy",
+      "dinner",
+      "lunch",
+      "whisk",
+      "baking_pan",
+      "under_1_hour",
+      "european",
+      "under_30_minutes",
+      "date_night",
+      "one_pot_or_pan",
+      "baking_kit",
+      "mixing_bowl",
+      "low_fat",
+      "high_fiber",
+      "meal"
+    ],
+    "ingredientList": [
+      "1 tablespoon butter",
+      "2 cloves garlic",
+      "1 tablespoon flour",
+      "1 cup milk",
+      "1 teaspoon salt",
+      "½ teaspoon pepper",
+      "3-4 Yukon gold potatoes, peeled",
+      "2 tablespoons grated parmesan",
+      "Chopped parsley, for garnish"
     ]
   }
 ]
