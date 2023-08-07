@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.10.3",
     "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "ini": "^4.1.1",
     "lru-cache": "^10.0.0",
     "mysql": "^2.18.1",
     "mysql2": "^3.6.0",
