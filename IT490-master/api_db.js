@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise');
 
 const DB_CONFIG = {
   host: '35.219.141.161',
-  user:	'nv288',
+  user: 'nv288',
   password: 'titans',
   database: 'titans'
 };
@@ -29,13 +29,16 @@ async function handleMessage(msg) {
     const apiData = JSON.parse(msg.content.toString());
 
     if (Array.isArray(apiData)) {
-      apiData.forEach((recipeData) => {
-        const { api_id, ingredientList, steps, nutrition } = recipeData;
+      apiData.forEach(async (recipeData) => {
+        const { api_id, name, photo, tags, ingredientList, steps, nutrition, ingredients } = recipeData;
 
         // Extract the integer value from api_id
         const apiIdInteger = parseInt(api_id.split(':')[1]);
 
-        insertRecipe(apiIdInteger, ingredientList, steps, nutrition);
+        const recipeId = await insertRecipe(apiIdInteger, name, photo, tags, ingredientList, steps, nutrition); // Insert the recipe and get the recipeId
+
+        // Insert ingredients into the Ingredients table
+        await insertIngredients(recipeId, ingredients);
       });
     } else {
       console.error('No valid recipe data found in the received message');
@@ -45,19 +48,42 @@ async function handleMessage(msg) {
   }
 }
 
-function insertRecipe(apiId, ingredientList, steps, nutrition) {
-  const insertQuery = `
-    INSERT INTO Recipes (api_id, ingredientList, steps, nutrition)
-    VALUES (?, ?, ?, ?)
+async function insertIngredients(recipeId, ingredients) {
+  const insertIngredientQuery = `
+    INSERT INTO Ingredients (name) 
+    VALUES (?)
   `;
 
-  db.execute(insertQuery, [apiId, JSON.stringify(ingredientList), JSON.stringify(steps), JSON.stringify(nutrition)])
-    .then(() => {
-      console.log('Recipe data inserted successfully:', apiId);
-    })
-    .catch((error) => {
-      console.error('Error inserting data:', error);
-    });
+  for (const ingredient of ingredients) {
+    try {
+      await db.execute(insertIngredientQuery, [ingredient]);
+      console.log('Ingredient inserted successfully:', ingredient);
+    } catch (error) {
+      console.error('Error inserting ingredient:', error);
+    }
+  }
+}
+
+async function insertRecipe(apiId, name, photo, tags, ingredientList, steps, nutrition) {
+  const checkQuery = `
+    SELECT id FROM Recipes WHERE api_id = ?
+  `;
+
+  const [rows] = await db.execute(checkQuery, [apiId]);
+
+  if (rows.length > 0) {
+    console.log('Recipe already exists:', apiId);
+    return rows[0].id;
+  }
+
+  const insertQuery = `
+    INSERT INTO Recipes (api_id, name, photo, tags, ingredientList, steps, nutrition) 
+    VALUES (?, ?, ?, ?, ?, ?, ?)
+  `;
+
+  const [result] = await db.execute(insertQuery, [apiId, name, photo, tags, JSON.stringify(ingredientList), JSON.stringify(steps), JSON.stringify(nutrition)]);
+
+  return result.insertId; // Return the inserted recipe's ID
 }
 
 setup();

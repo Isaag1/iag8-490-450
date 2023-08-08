@@ -6,7 +6,7 @@ const API_OPTIONS = {
   url: 'https://tasty.p.rapidapi.com/recipes/list',
   params: {
     from: '0',
-    size: '3',
+    size: '2',
     tags: 'few ingredients'
   },
   headers: {
@@ -15,7 +15,6 @@ const API_OPTIONS = {
   }
 };
 
-// Replace these variables with the actual values from your INI file
 const BROKER_HOST = '127.0.0.1';
 const BROKER_PORT = 5672;
 const USER = 'guest';
@@ -31,11 +30,15 @@ async function fetchDataAndSendToQueue() {
 
     const formattedData = data.map(recipe => ({
       api_id: recipe.canonical_id,
+      name: recipe.name,
+      photo: recipe.thumbnail_url,
+      tags: recipe.keywords,
       ingredientList: recipe.sections[0].components.map(component => component.raw_text),
       steps: recipe.instructions.map(instruction => instruction.display_text),
       nutrition: recipe.nutrition,
-      created: new Date().toISOString(), // Current machine time
-      modified: new Date(recipe.updated_at).toISOString() // Recipe's update time
+      ingredients: recipe.sections[0].components.map(component => component.ingredient.name),
+      created: new Date().toISOString(),
+      modified: new Date(recipe.updated_at).toISOString()
     }));
 
     channel.assertQueue('api_data_queue');
@@ -45,11 +48,10 @@ async function fetchDataAndSendToQueue() {
   } catch (error) {
     console.error('API request error:', error);
   } finally {
-    // Close the channel and connection after the message is sent
     setTimeout(async () => {
       await channel.close();
       await connection.close();
-    }, 1000); // Wait for 1 second before closing
+    }, 1000);
   }
 }
 
